@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/Logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/Logo"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Logo"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="100sp"
+        android:backgroundTint="#FF1744"
+        android:ems="10"
+        android:hint="@string/You_city"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/white2Text"
+        android:textColorHint="#5A5A5A" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Buttan1"
+        android:fontFamily="@font/audiowide"
+        android:layout_below="@+id/User"
+        android:layout_marginHorizontal="120sp"
+        android:layout_marginTop="20sp"
+        android:text="@string/user_btr"
+        android:textColor="@color/white2Text"
+        android:backgroundTint="#FF1744">
+
+    </Button>
+    <TextView
+        android:id="@+id/result_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@+id/Buttan1"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/audiowide"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
